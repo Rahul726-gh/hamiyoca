@@ -64,8 +64,8 @@ function meinWebGLStart(threads) {
         gl.linkProgram(program);
         gl.useProgram(program);
 
-        gl.clearColor ( 1.0, 1.0, 1.0, 1.0 );
-        gl.clear ( gl.COLOR_BUFFER_BIT );
+        gl.clearColor( 1.0, 1.0, 1.0, 1.0 );
+        gl.clear( gl.COLOR_BUFFER_BIT );
 
         var posAtrLoc = gl.getAttribLocation(program, "vPos");
         gl.enableVertexAttribArray( posAtrLoc );
